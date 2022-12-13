@@ -11,7 +11,7 @@ set shiftwidth=2
 set smarttab
 set expandtab
 set autoindent
-set backspace="indent,eol,start"
+set backspace=2 " indent,eol,start
 set showmatch
 set matchtime=1
 set wildmenu
@@ -27,7 +27,8 @@ set whichwrap="b,s,h,l"
 set scrolloff=8
 set clipboard="unnamed"
 
-colorscheme habamax
+colorscheme zellner
+highlight Normal ctermbg=235
 
 let g:mapleader = "\<SPACE>"
 
